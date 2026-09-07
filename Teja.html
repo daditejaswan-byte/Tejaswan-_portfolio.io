@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejaswan Dadi | Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --primary: #38bdf8;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            color: var(--text-main);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .contact-links a:hover {
+            color: var(--primary);
+        }
+
+        section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 28px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+        }
+
+        .skill-card {
+            background: #0f172a;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .skill-card h3 {
+            font-size: 1rem;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            background: #1e293b;
+            color: var(--primary);
+            padding: 4px 10px;
+            border-radius: 16px;
+            font-size: 0.85rem;
+            border: 1px solid var(--border);
+        }
+
+        .project-card {
+            background: #0f172a;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .project-card h3 {
+            color: var(--text-main);
+            margin-bottom: 12px;
+        }
+
+        .project-card ul {
+            list-style-position: inside;
+            color: var(--text-muted);
+        }
+
+        .project-card li {
+            margin-bottom: 6px;
+        }
+
+        .edu-item {
+            margin-bottom: 16px;
+        }
+
+        .edu-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .edu-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        .edu-sub {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 600px) {
+            .edu-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header Section -->
+    <header>
+        <h1>TEJASWAN DADI</h1>
+        <div class="subtitle">Data Annotation | Mapping | AI/ML Data Operations | Software Testing</div>
+        <div class="contact-links">
+            <a href="mailto:daditejaswan@gmail.com"><i class="fas fa-envelope"></i> daditejaswan@gmail.com</a>
+            <a href="tel:+918885227429"><i class="fas fa-phone"></i> +91 8885227429</a>
+            <a href="https://linkedin.com/in/b90645287" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <span><i class="fas fa-location-dot"></i> Visakhapatnam, AP, India</span>
+        </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+        <h2><i class="fas fa-user"></i> Professional Summary</h2>
+        <p style="color: var(--text-muted);">
+            Motivated and detail-oriented B.Com (Computers) graduate seeking an entry-level opportunity in Data Annotation, Mapping, AI/ML Data Operations, or Software Testing[span_1](start_span)[span_1](end_span). Knowledge of Manual Testing, SQL, MS Excel, Core Java, and basic Selenium[span_2](start_span)[span_2](end_span). Strong attention to detail, accuracy, communication, teamwork, and willingness to learn new tools and processes[span_3](start_span)[span_3](end_span).
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2><i class="fas fa-code"></i> Technical & Core Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Software Testing</h3>
+                <div class="tags">
+                    <span class="tag">Manual Testing</span>
+                    <span class="tag">SDLC & STLC</span>
+                    <span class="tag">Functional Testing</span>
+                    <span class="tag">Smoke & Sanity</span>
+                    <span class="tag">Regression</span>
+                    <span class="tag">Defect Life Cycle</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Databases & Code</h3>
+                <div class="tags">
+                    <span class="tag">SQL (Joins, Subqueries)</span>
+                    <span class="tag">DDL, DML, DCL, TCL</span>
+                    <span class="tag">Core Java (OOPs)</span>
+                    <span class="tag">Basic Selenium</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Tools & Agile</h3>
+                <div class="tags">
+                    <span class="tag">JIRA</span>
+                    <span class="tag">Trello</span>
+                    <span class="tag">MS Excel</span>
+                    <span class="tag">Agile / Scrum</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Core Strengths</h3>
+                <div class="tags">
+                    <span class="tag">Attention to Detail</span>
+                    <span class="tag">Problem Solving</span>
+                    <span class="tag">Report Writing</span>
+                    <span class="tag">Teamwork</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section>
+        <h2><i class="fas fa-diagram-project"></i> Project Work</h2>
+        <div class="project-card">
+            <h3>Trello Website – Manual Testing Project</h3>
+            <p style="color: var(--primary); margin-bottom: 8px; font-size: 0.9rem;"><strong>Tools Used:</strong> Trello, MS Excel</p>
+            <ul>
+                <li>Created and executed test scenarios and test cases for major Trello functionalities[span_4](start_span)[span_4](end_span).</li>
+                <li>Tested login, board creation, and list/card management functionalities[span_5](start_span)[span_5](end_span).</li>
+                <li>Performed Functional, Smoke, Sanity, and Regression Testing[span_6](start_span)[span_6](end_span).</li>
+                <li>Identified defects, documented expected vs. actual results, and prepared test data[span_7](start_span)[span_7](end_span).</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section>
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="edu-item">
+            <div class="edu-header">
+                <span>B.Com (Computers) | CGPA: 7.25</span>
+                <span>2023 – 2026</span>
+            </div>
+            <div class="edu-sub">Ushodaya Degree College, Visakhapatnam, Andhra Pradesh</div>
+        </div>
+        <br>
+        <div class="edu-item">
+            <div class="edu-header">
+                <span>CEC</span>
+                <span>2021 – 2023</span>
+            </div>
+            <div class="edu-sub">Ushodaya Junior College, Visakhapatnam, Andhra Pradesh</div>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
